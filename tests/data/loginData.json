@@ -1,0 +1,74 @@
+{
+    "valid": [
+      {
+        "email": "teste1@teste.com",
+        "password": "12345Abc"
+      },
+      {
+        "email": "teste2@teste.com",
+        "password": "12345Abc"
+      },
+      {
+        "email": "teste3@teste.com",
+        "password": "12345Abc"
+      }
+    ],
+    "invalid": [
+      {
+        "email": "teste@teste.com",
+        "password": "12345Abc"
+      },
+      {
+        "email": "a",
+        "password": "12345Abc"
+      },
+      {
+        "email": "testeteste.com",
+        "password": "12345Abc"
+      },
+      {
+        "email": "teste@teste",
+        "password": "12345Abc"
+      },
+      {
+        "email": "111@111",
+        "password": "12345Abc"
+      },
+      {
+        "email": "111@111.com",
+        "password": "12345Abc"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "1"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "123"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "12345"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "12345abc"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "a"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": "@@@@@"
+      },
+      {
+        "email": "",
+        "password": "12345abc"
+      },
+      {
+        "email": "teste@teste.com",
+        "password": ""
+      }
+    ]
+  }
